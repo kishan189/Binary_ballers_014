@@ -2,5 +2,23 @@
 
 
 /* main section styling */
+body{
+    background-image: url('./pics/windows_wallpaper.jfif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    max-width: vw;
+    margin: auto;
+}
+#taskbar{
+    height: 50px;
+    width: 100%;
+    background-image: linear-gradient(to right,rgba(4, 13, 38, 1) ,rgba(29, 72, 172), rgb(29, 72, 172), rgb(4, 13, 38), rgba(4, 13, 38, 1));
+    position: fixed;
+    bottom: 0;
+}
 
 /* footer section */
