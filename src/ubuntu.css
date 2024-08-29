@@ -10,6 +10,19 @@ header{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header>h2{
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 15px;
+}
+
+header>div>i{
+    margin-left: 1rem;
 }
 
 
