@@ -4,6 +4,18 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
+body{
+    background: url("./pics/macbook_walpaper1.jpg") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+}
+
+#innerbody{
+width: 100%;
+}
 
 /* header section */
 header{
