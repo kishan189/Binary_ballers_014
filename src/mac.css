@@ -1,3 +1,62 @@
-h1{
-    color:red
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/* header section */
+header{
+    width: 100%;
+    background-color:rgb(255, 192, 231);
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* header .lefthead{
+    width: 50%;
+    background-color: blueviolet;
+   
+} */
+/* header .righthead{
+   width:50%
+    
+} */
+.unorderlist{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    /* background-color: gold; */
+}
+.unorderlist li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 0.8rem;
+}
+.unorderlist li button{
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+    font-size: 1.2rem;
+    border: none;
+    
+}
+
+
+@media  only screen and (max-width:900px){
+header{
+    width: 100%;
+    background-color: blueviolet;
+}
+}
+@media  only screen and (max-width:650px){
+header{
+    width: 100%;
+    background-color: gray;
+}
+
 }

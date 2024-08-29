@@ -5,20 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mac</title>
     <link rel="stylesheet" href="./mac.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Kishan -->
+     <style>
+        body{
+                  background: url("./pics/macbook_walpaper1.jpg") no-repeat center center fixed;
+                  background-size: cover;
+                  margin: 0;
+                  padding: 0;
+                  height: 100vh;
+              
+        }
+ 
+        #innerbody{
+            width: 100%;
+        }
+        .slideFinder{
+            width: 200px;
+            height: 200px;
+            background-color: violet;
+            position: fixed;
+            top: -200px;
+            left: 100px;
+            transition:0.3s ease-in;
+        }
+        .slidegoFinder{
+            transform: translateY(50px);
+            position: absolute;
+            top: 0px;
+            left: 100px;
+        }
+
+     </style>
 </head>
 <body>
     <!-- this is outer box, every thing will be inside this box -->
-    <div id=""> 
+    <div id="innerbody"> 
 
         <!--  this is header section -->
-        <header></header>
+        <header>
+            <div class="lefthead">
+                <ul class="unorderlist" id="leftlist">
+                    <li style="font-size: 2rem;"><i class="fa-brands fa-apple"></i></li>
+                    <li><button class="btn" >Finder</button></li>
+                    <li><button >File</button></li>
+                    <li><button >Edit</button></li>
+                    <li><button >View</button></li>
+                    <li><button >Go</button></li>
+                    <li><button >window</button></li>
+                    <li><button >Help</button></li>
+                </ul>
+
+                <!-- slider -->
+               <div class="slideFinder  slidegoFinder"></div>              
+               
+            </div>
+            <div class="righthead" id="righlist">
+                <ul class="unorderlist">
+                    <li><i class="fa-solid fa-battery-half"></i></li>
+                    <li><i class="fa-solid fa-wifi"></i></li>
+                    <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                    <li>
+                        <i class="fa-solid fa-toggle-off"></i>
+                        <i class="fa-solid fa-toggle-large-on"></i>
+                    </li>
+                    <li><span>Mon Aug 28 9:41 AM</span></li>
+                </ul>
+            </div>
+        </header>
         <!-- this is main section all relevent content will be inside tha main section -->
-        <main></main>
+        <main>
+          
+        </main>
        
         <!-- Inside footer there will be address or contact -->
         <footer></footer>
-
+        <script src="./mac.js" charset="utf-8"></script>
     </div>
 </body>
 </html>
