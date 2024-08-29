@@ -23,6 +23,13 @@ header{
    width:50%
     
 } */
+ #apple-logo:hover{
+    scale: 2;
+    transition: 0.1s ease-in-out;
+    box-shadow: 5px 3px 4px 3px rgba(0,0,0,0.4);
+    border-radius: 5px;
+    cursor: pointer;
+ }
 .unorderlist{
     display: flex;
     list-style: none;
@@ -43,9 +50,71 @@ header{
     color: black;
     font-size: 1.2rem;
     border: none;
+    cursor: pointer;
     
 }
 
+/* slider section */
+.slideFinder{
+    width: 200px;
+    height: 200px;
+    background-color:green;
+    position: fixed;
+    top: -200px;
+    left: 150px;
+    transition:0.3s ease-in;
+}
+.slidegoFinder{
+    transform: translateY(50px);
+    position: absolute;
+    top: 0px;
+    left: 150px;
+}
+.slideFile{
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+    position: fixed;
+    top: -200px;
+    left: 200px;
+    transition:0.3s ease-in;
+}
+.slidegoFile{
+    transform: translateY(50px);
+    position: absolute;
+    top: 0px;
+    left: 200px;
+}
+.slideEdit{
+    width: 200px;
+    height: 200px;
+    background-color:rgb(136, 0, 255);
+    position: fixed;
+    top: -200px;
+    left: 250px;
+    transition:0.3s ease-in;
+}
+.slidegoEdit{
+    transform: translateY(50px);
+    position: absolute;
+    top: 0px;
+    left: 250px;
+}
+.slideHelp{
+    width: 200px;
+    height: 200px;
+    background-color:rgb(136, 0, 255);
+    position: fixed;
+    top: -200px;
+    left: 550px;
+    transition:0.3s ease-in;
+}
+.slidegoHelp{
+    transform: translateY(50px);
+    position: absolute;
+    top: 0px;
+    left: 550px;
+}
 
 @media  only screen and (max-width:900px){
 header{
