@@ -11,88 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Kishan -->
      <style>
-        body{
-                  background: url("./pics/macbook_walpaper1.jpg") no-repeat center center fixed;
-                  background-size: cover;
-                  margin: 0;
-                  padding: 0;
-                  height: 100vh;
-              
-        }
- 
-        #innerbody{
-            width: 100%;
-        }
-
-        /* main section */
-        main{
-            height: 85vh;
-            display: flex;
-            flex-direction: row-reverse;
-        }
-
-        #folder-container{
-          width: 25%;
-          background-color:transparent;
-          display: grid;
-          grid-template-columns: repeat(3,1fr);
-          height: 50vh;
-          padding-right: 20px;
-
-       }
-       #folder-container img{
-           width: 50px;
-       }
-       #folder-container .folder-name{
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          cursor: pointer;
-          margin-top: 2rem;
-          padding-bottom: 1rem;
-       }
-       #folder-container .folder-name:hover{
-          scale: 1.3;
-          transition: 0.1s ease-in-out;
-          box-shadow: 5px 3px 4px 3px rgba(0,0,0,0.4);
-          border-radius: 50%; 
-       }
-       /* footer section */
-        footer{
-            width: 80%;
-            margin: auto;
-            /* margin-top: 20px; */
-            height: 15vh;
-         
-        }
-        .foot-container{
-            width: 100%;
-            background: linear-gradient(0.25turn, #e66465, #e664bf, #9198e5);
-            border-radius: 15px;
-            padding: 8px 20px;
-        }
-        .foot-container>div{
-            width: 40px;
-            border-radius: 10px;
-        }
-        .foot-container>div:hover{
-            cursor: pointer;
-            scale: 2;
-            transition: 0.1s ease-in-out;
-            box-shadow: 5px 3px 4px 3px rgba(0,0,0,0.4);
-            border-radius: 50%; 
-        }
        
-        .foot-container img{
-            width: 100%;
-        }
-        .foot-container{
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-        }
-       
+      
      </style>
 </head>
 <body>
@@ -108,25 +28,145 @@
                     <li><button class="file">File</button></li>
                     <li><button class="edit">Edit</button></li>
                     <li><button >View</button></li>
-                    <li><button >Go</button></li>
+                    <li><button class="go" >Go</button></li>
                     <li><button >window</button></li>
                     <li><button class="help" >Help</button></li>
                 </ul>
 
                 <!-- slider -->
-               <div class="slideFinder  slidegoFinder"></div>  
-               <div class="slideFile  slidegoFile"></div> 
-               <div class="slideEdit  slidegoEdit"></div>
-               <div class="slideHelp  slidegoHelp"></div>
+                 <!-- finder silder -->
+               <div class="slideFinder  slidegoFinder">
+                <div class="div">
+                  <span>About Finder</span>
+                </div>
+                <hr>
+                  <div class="div">
+                    <span>Preferences...</span>
+                  </div>
+                  <hr>
+                  <div class="div">
+                    <span>Empty Trash...</span>
+                  </div>
+                  <hr>
+                  <div class="div">
+                    <span>Services</span>
+                  </div>
+                  <hr>
+                  <div class="div">
+                    <span style="opacity: 0.3;">Hide Finder</span>
+                  </div>
+                  <div class="div">
+                    <span style="opacity: 0.3;">Hide Others</span>
+                  </div>
+                  <div class="div">
+                    <span style="opacity: 0.3;">Show All</span>
+                  </div>
+               </div>  
+               <!-- go slider -->
+                 <div class="slideGo  slidegoGo">
+                <div class="div">
+                  <span>About Go</span>
+                </div>
+                <hr>
+                  <div class="div">
+                    <span>Preferences...</span>
+                  </div>
+                  <hr>
+                  <div class="div">
+                    <span>Empty Trash...</span>
+                  </div>
+                  <hr>
+                  <div class="div">
+                    <span>Services</span>
+                  </div>
+                  <hr>
+                  <div class="div">
+                    <span style="opacity: 0.3;">Hide Finder</span>
+                  </div>
+                  <div class="div">
+                    <span style="opacity: 0.3;">Hide Others</span>
+                  </div>
+                  <div class="div">
+                    <span style="opacity: 0.3;">Show All</span>
+                  </div>
+               </div>  
+               <div class="slideFile  slidegoFile">
+                <div class="div">
+                    <span>Save</span>
+                  </div>
+                  <div class="div">
+                    <span>Save as...</span>
+                  </div>
+                  <div class="div">
+                    <span>Save all</span>
+                  </div>
+                  <hr>
+                  <div class="div">
+                    <span>close Folder</span>
+                  </div>
+                  <div class="div">
+                    <span>Close macOS</span>
+                  </div>
+                  <hr>
+                  <div class="div">
+                    <span>Exit</span>
+                  </div>
+               </div> 
+               <!-- edit slider -->
+               <div class="slideEdit  slidegoEdit">
+                <div class="div">
+                    <span>Save</span>
+                  </div>
+                  <div class="div">
+                    <span>Save as...</span>
+                  </div>
+                  <div class="div">
+                    <span>Save all</span>
+                  </div>
+                  <hr>
+                  <div class="div">
+                    <span>close Folder</span>
+                  </div>
+                  <div class="div">
+                    <span>Close macOS</span>
+                  </div>
+                  <hr>
+                  <div class="div">
+                    <span>Exit</span>
+                  </div>
+               </div>
+               <!-- help slider -->
+               <div class="slideHelp  slidegoHelp">
+                <div class="div">
+                    <span>Save</span>
+                  </div>
+                  <div class="div">
+                    <span>Save as...</span>
+                  </div>
+                  <div class="div">
+                    <span>Save all</span>
+                  </div>
+                  <hr>
+                  <div class="div">
+                    <span>close Folder</span>
+                  </div>
+                  <div class="div">
+                    <span>Close macOS</span>
+                  </div>
+                  <hr>
+                  <div class="div">
+                    <span>Exit</span>
+                  </div>
+               </div>
             
             </div>
             <!-- right section of header -->
             <div class="righthead" id="righlist">
                 <ul class="unorderlist">
-                    <li><i class="fa-solid fa-battery-half"></i></li>
-                    <li><i class="fa-solid fa-wifi"></i></li>
-                    <li><i class="fa-duotone fa-solid fa-volume-high"></i></li>
-                    <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                    <li class="battery"><i class="fa-solid fa-battery-half"></i></li>
+                    <li class="wifi"><i class="fa-solid fa-wifi"></i></li>
+                    <li class="speaker"><i class="fa-duotone fa-solid fa-volume-high"></i></li>
+                    <li class="search"><i class="fa-solid fa-magnifying-glass"></i></li>
                     <li>
                         <i class="fa-solid fa-toggle-off"></i>
                         <!-- <i class="fa-solid fa-toggle-large-on"></i> -->
@@ -181,60 +221,189 @@
         <!-- Inside footer there will be address or contact -->
         <footer>
             <div class="foot-container">
-                <div>
-                    <img src="./pics/3d-mac-os-finder.png" alt="prime"/>
+                <div class="finder" id="finderlogo">
+                    <img src="./pics/3d-mac-os-finder.png" alt="finder"/>
                 </div>
-                <div>
-                    <img src="./pics/zoom-app-seeklogo.svg" alt="prime"/>
+                <div class="zoom">
+                    <img src="./pics/zoom-app-seeklogo.svg" alt="zoom"/>
                 </div>
-                <div>
-                    <img src="./pics/folder.svg" alt="prime"/>
+                <div class="folder">
+                    <img src="./pics/folder.svg" alt="folder"/>
                 </div>
-                <div>
-                    <img src="./pics/apps-twitter.svg" alt="prime"/>
+                <div class="twitter">
+                    <img src="./pics/apps-twitter.svg" alt="twitter"/>
                 </div>
-                <div>
-                    <img src="./pics/apps-apple-tv.svg" alt="prime"/>
+                <div class="apple-tv">
+                    <img src="./pics/apps-apple-tv.svg" alt="apple-tv"/>
                 </div>
                               
-                <div>
-                    <img src="./pics/facetime.png" alt="prime"/>
+                <div class="facetime">
+                    <img src="./pics/facetime.png" alt="facetime"/>
                 </div>
-                <div>
-                    <img src="./pics/ios-music.png" alt="prime"/>
+                <div class="music">
+                    <img src="./pics/ios-music.png" alt="music"/>
                 </div>
-                <div>
-                    <img src="./pics/macos-podcasts.png" alt="prime"/>
+                <div class="podcast">
+                    <img src="./pics/macos-podcasts.png" alt="podcast"/>
                 </div>
-                <div>
+                <div class="calender">
                     <img src="./pics/calendar-2021-04-29.png" alt="calendar-2021-04-29"/>
                 </div>
                 
-                <div>
+                <div class="videoplayer">
                     <img src="./pics/videoplayer.png" alt="videoplayer"/>
                 </div>
-                <div>
+                <div class="copilte">
                     <img src="./pics/copilot-2023-02-14.png" alt="copilte"/>
                 </div>
-                <div>
+                <div class="notes">
                     <img src="./pics/note-widget-notes-app-2024-04-24.png" alt="notes"/>
                 </div>
-                <div>
+                <div class="git">
                     <img src="./pics/github-desktop-2021-05-20.png" alt="git"/>
                 </div>
-                <div>
+                <div class="download">
                     <img src="./pics/download.png" alt="download"/>
                 </div>
-                <div>
+                <div class="mail">
                     <img src="./pics/mail_icon.png" alt="prime"/>
                 </div>
-                <div style="border-left: 2px solid rgba(0,0,0,0.4);border-radius: 0px;padding-left: 10px;">
+                <div class="slack" style="border-left: 2px solid rgba(0,0,0,0.4);border-radius: 0px;padding-left: 10px;">
                     <img src="./pics/slack-icon.svg" alt="slack"/>
                 </div>
-                <div>
-                    <img src="./pics/icon-and-image-large-icon-settings@2x.png" alt="seeting"/>
-                </div>
-              
+                <div class="setting">
+                    <img src="./pics/icon-and-image-large-icon-settings@2x.png" alt="setting"/>
+                </div>                    
+            </div>
+             <!-- slider for finder logo -->
+             <div class="slideFinderLogo  slidegoFinderLogo">
+              <div class="containerF">
+                 <div class="leftContainer">
+                    <div class="left-one-div">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="left-two-div">
+                        <div>
+                            <span>Favorites</span>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-user"></i> <span>AirDrop</span>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-clock"></i> <span>Recent</span>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-app-store-ios"></i> <span>Application</span>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-file"></i><span>Documents</span>
+                        </div>
+                       
+                        <div>
+                            <i class="fa-regular fa-image"></i> <span>Pictures</span>
+                        </div>
+                       
+                        <div>
+                            <i class="fa-regular fa-circle-down"></i><span>Downloads</span>
+                        </div>
+                       
+                       
+                        
+                    </div>
+                    <div class="left-three-div">
+                       
+                        <div>
+                            <i class="fa-regular fa-cloud"></i><span> iCloud Drive</span>
+                        </div>
+                        
+                    </div>
+                    <div class="left-four-div">
+                        <div>
+                            <i class="fa-solid fa-desktop"></i><span>i7's IMAC</span>
+                        </div>
+                        <div>
+                            <span>Files</span>
+                        </div>
+                        <div>
+                           <i class="fa-regular fa-folder-open"></i>  <span>Books</span>
+                        </div>
+                        <div>
+                           <i class="fa-regular fa-folder-open"></i> <span>Bppks-Retro</span>
+                        </div>
+                        <div>
+                           <i class="fa-regular fa-folder-open"></i> <span>Timer+Sinclair</span>
+                        </div>
+                        <div>
+                           <i class="fa-regular fa-folder-open"></i> <span>Android</span>
+                        </div>
+                        <div>
+                           <i class="fa-regular fa-folder-open"></i> <span>3rd</span>
+                        </div>
+                        <div>
+                           <i class="fa-regular fa-folder-open"></i>  <span>Adobe</span>
+                        </div>
+        
+                    </div>
+        
+                 </div>
+                 <div class="rightContainer">
+                      <div class="righttop">
+                        <div>
+                            <i class="fa-solid fa-less-than"></i>
+                            <i class="fa-solid fa-greater-than"></i>
+                            <span>Applications</span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-bars"></i>
+                            <i class="fa-solid fa-caret-up"></i>
+                        </div>
+                        <div>
+                            <i class="fa-thin fa-rectangle-vertical"></i>
+                            <i class="fa-sharp fa-thin fa-circle-info"></i>
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-angles-right"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                         
+                      </div>
+                      <div class="rightbottom">
+                         <div>
+                            <img src="./pics/apps-google-chrome.svg"/>
+                         </div>
+                         <div>
+                            <img src="./pics/copilot-2023-02-14.png"/>
+                         </div>
+                         <div>
+                            <img src="./pics/apps-twitter.svg"/>
+                         </div>
+                         <div>
+                            <img src="./pics/facetime.png"/>
+                         </div>
+                         <div>
+                            <img src="./pics/apps-apple-tv.svg"/>
+                         </div>
+                         <div>
+                            <img src="./pics/github-desktop-2021-05-20.png"/>
+                         </div>
+                         <div>
+                            <img src="./pics/zoom-app-seeklogo.svg"/>
+                         </div>
+                         <div>
+                            <img src="./pics/ios-music.png"/>
+                         </div>
+                         <div>
+                            <img src="./pics/mail_icon.png"/>
+                         </div>
+                         <div>
+                            <img src="./pics/slack-icon.svg"/>
+                         </div>
+                      </div>
+                 </div>
+              </div>
             </div>
         </footer>
         <script src="./mac.js" charset="utf-8"></script>

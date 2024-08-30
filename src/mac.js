@@ -16,8 +16,23 @@ document.querySelector(".edit").addEventListener("click",function(){
     document.querySelector(".slideEdit").classList.toggle("slidegoEdit")
 })
 
+document.querySelector(".slideGo").style.display="none";
+document.querySelector(".go").addEventListener("click",function(){
+    document.querySelector(".slideGo").style.display="inline-block";
+    document.querySelector(".slideGo").classList.toggle("slidegoGo")
+})
+
 document.querySelector(".slideHelp").style.display="none";
 document.querySelector(".help").addEventListener("click",function(){
     document.querySelector(".slideHelp").style.display="inline-block";
     document.querySelector(".slideHelp").classList.toggle("slidegoHelp")
+})
+
+// footer section slider
+
+document.querySelector(".slideFinderLogo").style.display="none";
+document.querySelector("#finderlogo").addEventListener("click",function(){
+    document.querySelector(".slideFinderLogo").classList.toggle("slidegoFinderLogo")
+    document.querySelector(".slideFinderLogo").style.display="inline-block";
+    // console.log("hello")
 })
