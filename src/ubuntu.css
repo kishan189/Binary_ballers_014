@@ -1,4 +1,4 @@
-body{
+*{
     margin: 0;
     padding: 0;
     line-height: 0;
@@ -10,8 +10,9 @@ header{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 0.6rem 0.8rem;
 }
 
 header>h2{
@@ -19,10 +20,50 @@ header>h2{
     font-size: 18px;
     font-family: sans-serif;
     line-height: 15px;
+    
 }
 
-header>div>i{
-    margin-left: 1rem;
+header>button{
+    background-color: rgb(44, 44, 44);
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 15px;
+    margin-left: 6rem;
+}
+
+header>div>button{
+   border: none;
+   background-color: rgb(44, 44, 44);
+   border: none;
+   padding: 0rem 0.7rem;
+}
+
+header>div>button>i{
+    color: rgb(255, 255, 255);
+ }
+
+#sidebar{
+    background-color: rgb(44, 44, 44);
+    width: 6rem;
+    height: 100vh;
+
+}
+
+#sidebar>div{
+    width: 100%;
+    padding: 0.8rem;
+}
+
+#sidebar>div>{
+    transform: scale(1.3);
+}
+
+main{
+    width: 80vw;
+    background-image: url(./ubsrc/free-nature-images.jpg);
 }
 
 
