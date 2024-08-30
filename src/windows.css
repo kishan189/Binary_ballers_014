@@ -6,14 +6,14 @@
 
 /* main section styling */
 body{
-    background-image: url('./pics/windows_operating_system_mountain_fuji_hd_technology.jpg');
+    background-image: url('./pics/windows-11.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
 }
 .container{
-    max-width: vw;
+    max-width: 100vw;
     margin: auto;
 } 
 #taskbar{
@@ -41,23 +41,27 @@ body{
     margin: 0 .5rem;
     padding: 0.2rem;
 }
-#search{
+.search{
     position: relative;
     display: flex;
     align-items: center;
 }
-#search>input{
+.search>input{
     border: none;
     border-radius: 20px;
     padding: 10px 0;
     padding-left: 40px;
+    width: 100%;
 }
-#search>img{
+.search>input:focus{
+    background-color: rgba(255, 255, 255, 0.9);
+    font-weight: 400;
+}
+.search>img{
     position: absolute;
     top: 15%;
-    height: 25px;
-    width: 25px;
 }
+
 .tooltip{
     visibility: hidden;
     background-color: #0000008e;
@@ -82,6 +86,10 @@ body{
     background-size: cover;
     transition: 0.1s ease-in-out;
     border-radius: 5px;
+}
+#taskbar>div>div>a:focus+.tooltip{
+    visibility: hidden;
+    transition: 0.1s ease-in-out;
 }
 #last{
     margin-right: 1rem;
@@ -118,6 +126,48 @@ body{
     transition: 0.1s ease-in-out;
     border-radius: 5px;
 }
-
-
+#start{
+    width: 40vw;
+    height: 80vh;
+    background-color: rgb(210, 225, 239);
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1;
+    position: absolute;
+    bottom: 120%;
+    transition: 0.5s ease-in;
+    border-radius: 10px;
+}
+#taskbar>div>div>a:focus~#start{
+    visibility: visible;
+    opacity: 1;
+}
+#start>div{
+    margin: 2rem;
+}
+#u-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 2rem 0 2rem;
+}
+#u-banner>h1{
+    font-weight: 500;
+    font-size: 1rem;
+}
+#u-banner>button{
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0.1px 1px rgba(0, 0, 0, 0.5),
+                0 -0.1px 1px rgba(0, 0, 0, 0.5);
+}
+#banner{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+}
+#banner>figure:hover{
+    background-color: white;
+    border-radius: 5px;
+}
 /* footer section */
