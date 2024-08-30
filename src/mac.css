@@ -35,6 +35,8 @@ header{
    width:50%
     
 } */
+
+/* left header section */
  #apple-logo:hover{
     scale: 2;
     transition: 0.1s ease-in-out;
@@ -65,70 +67,343 @@ header{
     cursor: pointer;
     
 }
-
+/* left header */
 /* slider section */
+/* finder slider section */
 .slideFinder{
     width: 200px;
-    height: 200px;
-    background-color:green;
+    padding: 20px 30px 20px 30px;
+    background-color: rgba(0, 0, 0, 0.129);
+    color: white;
     position: fixed;
-    top: -200px;
-    left: 150px;
+    top: -400px;
+    left: 0px;
     transition:0.3s ease-in;
+   }
+.slideFinder>div{
+     margin-top: 10px;
 }
 .slidegoFinder{
-    transform: translateY(50px);
+  transform: translateY(42px);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+/* file slider section */
+.slideFile{
+    width: 200px;
+    padding: 20px 30px 20px 30px;
+    background-color: rgba(0, 0, 0, 0.129);
+    color: white;
+    position: fixed;
+    top: -400px;
+    left: 150px;
+    transition:0.3s ease-in;
+}
+.slideFile>div{
+    margin-top: 10px;
+}
+.slidegoFile{
+    transform: translateY(42px);
     position: absolute;
     top: 0px;
     left: 150px;
 }
-.slideFile{
-    width: 200px;
-    height: 200px;
-    background-color: violet;
-    position: fixed;
-    top: -200px;
-    left: 200px;
-    transition:0.3s ease-in;
-}
-.slidegoFile{
-    transform: translateY(50px);
-    position: absolute;
-    top: 0px;
-    left: 200px;
+/* slider edit */
+.slideEdit>div{
+    margin-top: 10px;
 }
 .slideEdit{
     width: 200px;
-    height: 200px;
-    background-color:rgb(136, 0, 255);
+    padding: 20px 30px 20px 30px;
+    background-color: rgba(0, 0, 0, 0.129);
+    color: white;
     position: fixed;
-    top: -200px;
-    left: 250px;
+    top: -400px;
+    left: 200px;
     transition:0.3s ease-in;
 }
 .slidegoEdit{
-    transform: translateY(50px);
+    transform: translateY(42px);
     position: absolute;
     top: 0px;
-    left: 250px;
+    left: 200px;
+}
+/* slider go */
+.slideGo>div{
+    margin-top: 10px;
+}
+.slideGo{
+    width: 200px;
+    padding: 20px 30px 20px 30px;
+    background-color: rgba(0, 0, 0, 0.129);
+    color: white;
+    position: fixed;
+    top: -400px;
+    left: 300px;
+    transition:0.3s ease-in;
+}
+.slidegoGo{
+    transform: translateY(42px);
+    position: absolute;
+    top: 0px;
+    left: 300px;
+}
+/* help slider */
+.slideHelp>div{
+    margin-top: 10px;
 }
 .slideHelp{
     width: 200px;
-    height: 200px;
-    background-color:rgb(136, 0, 255);
+    padding: 20px 30px 20px 30px;
+    background-color: rgba(0, 0, 0, 0.129);
+    color: white;
     position: fixed;
-    top: -200px;
-    left: 550px;
+    top: -400px;
+    left: 500px;
     transition:0.3s ease-in;
 }
 .slidegoHelp{
-    transform: translateY(50px);
+    transform: translateY(42px);
     position: absolute;
     top: 0px;
-    left: 550px;
+    left: 500px;
 }
 
-@media  only screen and (max-width:900px){
+/* right header section */
+.righthead{
+    position: relative;
+}
+.battery:hover::after{
+   content: "Battery Status : 45% remaning";
+   position: absolute;
+   top: 30px;
+   left:-70px;
+   background-color:rgba(26, 0, 0, 0.656);
+   color:rgba(255, 255, 255,0.9);
+   font-size: 16px;
+   padding: 10px 5px;
+   border-radius: 4px;
+}
+.speaker:hover::after{
+   content: "Speakers (realtek(R) Audio):80%";
+   position: absolute;
+   top: 30px;
+   left:0px;
+    background-color:rgba(26, 0, 0, 0.656);
+    color:rgba(255, 255, 255,0.9);
+    font-size: 16px;
+    padding: 10px 5px;
+    border-radius: 4px;
+}
+.wifi:hover::after{
+    content: "POCO M6 5G Pro Internet access";
+    position: absolute;
+    top: 30px;
+      left:0px;
+      background-color:rgba(26, 0, 0, 0.656);
+      color:rgba(255, 255, 255,0.9);
+      font-size: 16px;
+      padding: 10px 5px;
+      border-radius: 4px;
+}
+.search:hover::after{
+      content: "seach";
+      position: absolute;
+      top: 30px;
+      left:148px;
+      background-color:rgba(26, 0, 0, 0.656);
+      color:rgba(255, 255, 255,0.9);
+      font-size: 16px;
+      padding: 10px 5px;
+      border-radius: 4px;
+}
+
+/* main section */
+
+        /* main section */
+        main{
+            display: flex;
+            flex-direction: row-reverse;
+            padding-bottom: 17%;
+        }
+
+        #folder-container{
+          width: 25%;
+          background-color:transparent;
+          display: grid;
+          grid-template-columns: repeat(3,1fr);
+          padding-right: 20px;
+
+       }
+       #folder-container img{
+           width: 50px;
+       }
+       #folder-container .folder-name{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+          margin-top: 2rem;
+          /* padding-bottom: 1rem; */
+       }
+       #folder-container .folder-name:hover{
+          scale: 1.3;
+          transition: 0.1s ease-in-out;
+          box-shadow: 5px 3px 4px 3px rgba(0,0,0,0.4);
+          border-radius: 50%; 
+       }
+
+/*  */
+ /* footer section */
+
+ footer{
+    width: 80%;
+    margin:20px auto;
+}
+.foot-container{
+    width: 100%;
+    background: linear-gradient(0.25turn, #e66465, #e664bf, #9198e5);
+    border-radius: 15px;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    /* transition:transform 0.3s ease-in;     */
+}
+/* .foot-container:hover{
+    transform:translateX(-10px);
+    scale: 1.1;
+} */
+.foot-container>div{
+    width: 40px;
+    border-radius: 10px;
+}
+.foot-container img{
+    width: 100%;
+}
+.foot-container>div{
+    transition: transform 0.1s ease;
+}
+.foot-container>div:hover{
+    cursor: pointer;
+    transform:translateX(-10px);
+    scale: 1.5;
+    box-shadow: 5px 3px 4px 3px rgba(0,0,0,0.4);
+    border-radius: 5px; 
+}
+
+/* .foot-container{
+   
+} */
+.finder:hover::after{
+    content: "finder";
+    position: absolute;
+    top: -20px;
+    left:5px;
+}
+.zoom:hover::after{
+    content: "zoom";
+    position: absolute;
+    top: -20px;
+    left:5px;
+}
+.folder:hover::after{
+    content: "folder";
+    position: absolute;
+    top: -20px;
+    left:5px;
+}
+.twitter:hover::after{
+    content: "twitter";
+    position: absolute;
+    top: -20px;
+    left:5px;
+}
+.apple-tv:hover::after{
+    content: "appletv";
+    position: absolute;
+    top: -20px;
+    left:5px;
+}
+.facetime:hover::after{
+    content: "facetime";
+    position: absolute;
+    top: -20px;
+    left:5px;
+   
+}
+.music:hover::after{
+    content: "music";
+    position: absolute;
+    top: -20px;
+    left:5px;
+}
+.podcast:hover::after{
+    content: "podcast";
+    position: absolute;
+    top: -20px;
+    left:5px;
+}
+.calender:hover::after{
+    content: "calender";
+    position: absolute;
+    top: -20px;
+    left:5px;
+}
+.videoplayer:hover::after{
+    content: "videoplayer";
+    position: absolute;
+    top: -20px;
+    left:5px;
+}
+.copilte:hover::after{
+    content: "coplite";
+    position: absolute;
+    top: -20px;
+    left:5px;
+}
+.notes:hover::after{
+    content: "notes";
+    position: absolute;
+    top: -20px;
+    left:5px;
+}
+.git:hover::after{
+    content: "git";
+    position: absolute;
+    top: -20px;
+    left:14px;
+}
+.download:hover::after{
+    content: "appStore";
+    position: absolute;
+    top: -20px;
+    left:5px;
+}
+.mail:hover::after{
+    content: "mail";
+    position: absolute;
+    top: -20px;
+    left:5px;
+}
+.slack:hover::after{
+    content: "slack";
+    position: absolute;
+    top: -20px;
+    left:5px;
+}
+.setting:hover::after{
+    content: "setting";
+    position: absolute;
+    top: -20px;
+    left:5px;
+   
+}
+
+/* @media  only screen and (max-width:900px){
 header{
     width: 100%;
     background-color: blueviolet;
@@ -140,4 +415,121 @@ header{
     background-color: gray;
 }
 
+} */
+
+
+/* file explorer */
+
+/* script section */
+.slideFinderLogo{
+    width: 80%;
+    margin:0px auto;
+   box-shadow: 4px 8px 6px 4px rgba(0,0,0,0.5);
+    position: fixed;
+    top: -850px;
+    left: 200px;
+    background-color: white;
+}
+.slideFinderLogo>div{
+margin-top: 10px;
+}
+.slidegoFinderLogo{
+transform: translateX(0px);
+position: absolute;
+top: 0px;
+left: 200px;
+}
+
+/* container */
+.containerF{
+    width: 100%;
+    display: flex;
+    padding:8px 10px;
+}
+.leftContainer{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-right: 1px solid  rgba(0,0,0,0.5);
+}
+.leftContainer>div{
+    margin-top: 20px;
+}
+
+.left-one-div{
+    display: flex;
+}
+
+.left-one-div div:nth-child(1){
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.left-one-div div:nth-child(2){
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.left-one-div div:nth-child(3){
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.left-two-div{
+    /* background-color: aquamarine; */
+    border-right: 10px solid rgba(0,0,0,0.5);
+}
+.left-two-div>div{
+    margin-top: 10px;
+  
+}
+.left-two-div>div span{
+    margin-left: 10px;
+}
+.left-three-div>div{
+    margin-top: 10px;
+}
+.left-three-div>div span{
+    margin-left: 10px;
+}
+.left-four-div>div{
+    margin-top: 10px;
+}
+.left-four-div>div span{
+    margin-left: 10px;
+}
+
+
+
+
+/* right section */
+.rightContainer{
+    width: 65%;
+    height: 500px;
+}
+.righttop{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10px;
+    border: 1px solid  rgba(0,0,0,0.5);
+}
+.righttop i{
+  font-size: 25px;
+}
+.rightbottom img{
+  width:60px;
+}
+.rightbottom{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 30px;
+    margin-top: 30px;
+    padding-left: 10px;
 }
