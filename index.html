@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>OS World<i class="fa-solid fa-earth-asia"></i></title>
     <link rel="stylesheet" href="./index.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
     <!-- Disha -->
 </head>
 
@@ -16,6 +17,7 @@
 
     <!--  this is header section -->
     <div class="container">
+        <div class="overlay"></div>
         <header>
             <nav>
                 <div class="nav-left">
@@ -23,27 +25,15 @@
                 </div>
                 <div class="nav-right">
                     <a href="#">About</a>
-                    <a href="#">Features</a>
-                    <a href="#">OS Selection</a>
+                    <!-- <a href="#">Features</a> -->
+                    <!-- <a href="#">OS Selection</a> -->
                 </div>
             </nav>
             <section class="introduction">
-                <h1>Welcome to OS in Browser</h1>
-                <h2>Introduction</h2>
-                <p>
-                    Welcome to our interactive platform where you can explore the design of different
-                    operating systems—right in your browser! This project is a web-based educational
-                    tool that simulates
-                    the
-                    unique user experiences and interfaces of popular operating systems.
-                </p>
-                <p>
-                    Our goal is to bring the look and feel of Windows, macOS, and Ubuntu directly to
-                    your browser,
-                    giving
-                    you
-                    insights into the design choices and user experiences of each OS.
-                </p>
+                <h1> OS World</h1>
+                <!-- <h2>Introduction</h2> -->
+                <p>Explore and compare the design and functionality of different operating systems.
+                    Click on an OS below to delve into its unique features and interface design.</p>
             </section>
         </header>
 
@@ -53,33 +43,41 @@
             <div class="os-selection">
                 <div class="os-card">
                     <p><a href="./src/mac.html">
-                            <img src="" alt="macOS logo">
+                            <img src="./src/pics/download.jpg" alt="macOS logo">
                         </a></p>
-                    <h2><a href="">macOS</a></h2>
+                    <h2><a href="./src/mac.html">macOS</a></h2>
+                    <p>Minimalist design, intuitive interface.</p>
                 </div>
                 <div class="os-card">
                     <p><a href="./src/windows.html">
-                            <img src="" alt="Windows logo">
+                            <img src="./src/pics/window.jpg" alt="Windows logo">
                         </a></p>
-                    <h2><a href="">Windows</a></h2>
+                    <h2><a href="./src/windows.html">Windows</a></h2>
+                    <p>Versatile, widely compatible.</p>
                 </div>
                 <div class="os-card">
                     <p><a href="./src/ubuntu.html">
-                            <img src="" alt="Ubuntu logo">
+                            <img src="./src/pics/ubuntu.png" alt="Ubuntu logo">
                         </a></p>
-                    <h2><a href="">Ubuntu</a></h2>
+                    <h2><a href="./src/ubuntu.html">Ubuntu</a></h2>
+                    <p>Open-source, highly customizable.</p>
                 </div>
             </div>
-        </main>
-
-        <!-- Inside footer there will be address or contact -->
-        <footer>
-            <div>
-
-            </div>
-        </footer>
-
     </div>
+    </main>
+
+    <!-- Inside footer there will be address or contact -->
+    <footer>
+        <div class="footer-content">
+            <p>Created by <strong>BinaryBallers_014</strong></p>
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+
+        </div>
+    </footer>
 </body>
+<script src="https://kit.fontawesome.com/82381fe5ff.js" crossorigin="anonymous"></script>
 
 </html>
