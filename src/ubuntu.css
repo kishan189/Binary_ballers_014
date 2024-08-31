@@ -1,8 +1,27 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
     margin: 0;
     padding: 0;
     line-height: 0;
     box-sizing: border-box;
+}
+
+.container{
+    height: 105.4vh;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#main-img{
+    position: relative;
+    top: -45.6rem;
+    left: 5rem;
+    border: 1px solid black;
+    width: 93.72vw;
+}
+
+#main-img>img{
+    width: 100%;
 }
 
 header{
@@ -10,20 +29,204 @@ header{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 0.6rem 0.8rem;
 }
 
 header>h2{
     color: white;
     font-size: 18px;
     font-family: sans-serif;
-    line-height: 15px;
+    line-height: 15px;  
 }
 
-header>div>i{
+header>button{
+    background-color: rgb(44, 44, 44);
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 15px;
+    margin-left: 6rem;
+}
+
+header>div>button{
+   border: none;
+   background-color: rgb(44, 44, 44);
+   border: none;
+   padding: 0rem 0.7rem;
+}
+
+header>div>button>i{
+    color: rgb(255, 255, 255);
+ }
+
+#sidebar{
+    background-color: rgb(44, 44, 44);
+    width: 5rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#left{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-between;
+    height: 50vh;
+    margin-left: 1rem;
+    padding-top: 10px;
+}
+
+#left>div>img{
+    width: 75%;
+}
+
+#grid-menu>img{
+    width: 75%;
+}
+
+#grid-menu{
+    position: relative;
+    top: 7rem;
     margin-left: 1rem;
 }
+
+#dsply-icons{
+    width:6vw;
+    height: 50vh;
+    position: absolute;
+    top: 1.5rem;
+    left: 5.5rem;
+}
+
+#dsply-icons img{
+    width: 68%;
+    margin: 19px 0px 0px 14px;
+}
+
+#dsply-icons h2{
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 9px;
+    cursor: pointer;  
+}
+
+#dsply-icons>div:first-child>h2{
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Animation from here  */
+
+.calendar {
+    width: 333px;
+    height: 350px;
+    background-color: grey;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: Segoe UI, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .month {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 9px;
+  }
+  
+  .day {
+    font-size: 36px;
+    font-weight: bold;
+    color: #0078d7;
+    padding: 5px;
+  }
+  
+  .days {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 14px;
+    margin-left: 4.5px;
+  }
+  
+  .day-name {
+    width: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+  }
+  
+  .dates {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 8px 8px;
+    margin-left: 5px;
+  }
+  
+  .date {
+    width: 19px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .date:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .date.selected {
+    background-color: #0078d7;
+    color: #fff;
+  }
+
+
+#left>div>img:hover{
+    transform: scale(1.5);
+    transform: translate3d(50px);
+    transition: transform 0.3s ease-out;
+}
+
+#dsply-icons>div:hover{
+    transform: scale(1.3);
+    transition: transform 0.3s ease-out;
+}
+
+
+
+
+
+
+
+
+
 
 
 
