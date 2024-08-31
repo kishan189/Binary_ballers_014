@@ -22,6 +22,11 @@
 
 #main-img>img{
     width: 100%;
+
+}
+
+#cal{
+  margin-left: 6rem;
 }
 
 header{
@@ -35,7 +40,7 @@ header{
 }
 
 header>h2{
-    color: white;
+    color: rgba(222, 219, 219, 0.814);
     font-size: 18px;
     font-family: sans-serif;
     line-height: 15px;  
@@ -44,7 +49,7 @@ header>h2{
 header>button{
     background-color: rgb(44, 44, 44);
     border: none;
-    color: white;
+    color: rgb(199, 192, 192);
     font-size: 17px;
     font-family: sans-serif;
     font-weight: 700;
@@ -56,12 +61,12 @@ header>div>button{
    border: none;
    background-color: rgb(44, 44, 44);
    border: none;
-   padding: 0rem 0.7rem;
+   padding: 0rem 0.6rem;
 }
 
 header>div>button>i{
-    color: rgb(255, 255, 255);
- }
+    color: rgb(229, 223, 223);
+}
 
 #sidebar{
     background-color: rgb(44, 44, 44);
@@ -125,12 +130,67 @@ header>div>button>i{
 }
 
 
+/* mainmenu */
+#homepage{
+  width: 70vw;
+  height: 80vh;
+  position: absolute;
+  left: 16rem;
+  background-color: rgba(35, 33, 33, 0.1);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 5px;
+  top: 5rem;
+  /* visibility: hidden; */
+  /* opacity: 0; */
+  /* transition: 0.5s ease-in; */
+}
+
+/* #taskbar>div>div>a:focus~#start{
+  visibility: visible;
+  opacity: 1;
+}
+  */
+
+#banner{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 70px 40px;
+  padding: 1rem;
+}
+
+#banner>figure{
+  text-align: center;
+  width: 5rem;
+  height: 5rem;
+}
+
+#banner>figure>img{
+  width: 70%;
+}
+
+#banner>figure>figcaption{
+    color: rgb(210, 206, 206);
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 0.5rem;
+    cursor: pointer; 
+}
+
+#banner>figure:hover{
+  background-color: rgb(172, 31, 31);
+  border-radius: 5px;
+}
+
+
+
 
 /* Calendar  */
 .calendar {
   width: 333px;
   height: 320px;
-  background-color: rgb(40, 37, 37, 0.5);
+  background-color: rgb(40, 37, 37, 0.4);
   border-radius: 10px;
   padding: 5px;
   font-family: Segoe UI, sans-serif;
@@ -138,6 +198,7 @@ header>div>button>i{
   top: 2.5rem;
   left: 37.2rem;
   z-index: 1;
+  box-shadow: rgba(181, 181, 181, 0.24) 0px 3px 8px;
 }
 
 .header {
@@ -196,12 +257,24 @@ header>div>button>i{
 .date:hover {
   background-color: black;
   color: white;
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
 }
 
 .date.selected {
   background-color: #0078d7;
   color: #fff;
 } 
+
+.calendar{
+  display: none;
+}
+
+
+
+
+
+
 
 
 
@@ -219,16 +292,112 @@ header>div>button>i{
 
 
 
+@keyframes down {
+  0%{
+    transform: translateY(-100px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+
+#cal:focus + div{
+  display: block;
+  animation: down 0.4s ;
+}
+
+
 #left>div>img:hover{
     transform: scale(1.5);
     transform: translate3d(50px);
-    transition: transform 0.3s ease-out;
+    transition: transform 0.3s ease;
 }
 
 #dsply-icons>div:hover{
     transform: scale(1.3);
     transition: transform 0.3s ease-out;
 }
+
+
+@keyframes down2 {
+  0%{
+    transform: translateY(-50px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+
+header>div>button:nth-child(1):focus::after{
+  content: "Battery Status : 45% remaning";
+  position: absolute;
+  right: 6rem;
+  top: 2.5rem;
+  background-color:rgba(26, 0, 0, 0.656);
+  color:rgba(255, 255, 255,0.9);
+  font-size: 16px;
+  padding: 10px 5px;
+  border-radius: 4px;
+  z-index: 1;
+  font-family: "Ubuntu", sans-serif;
+  animation: down2 0.2s;
+}
+
+
+
+header>div>button:nth-child(2):focus::after{
+  content: "No new notifications";
+  position: absolute;
+  right: 5rem;
+  top: 2.5rem;
+  background-color:rgba(26, 0, 0, 0.8);
+  color:rgba(255, 255, 255,0.9);
+  font-size: 16px;
+  padding: 10px 5px;
+  border-radius: 2px;
+  z-index: 1;
+  font-family: "Ubuntu", sans-serif;
+  animation: down2 0.2s;
+}
+
+header>div>button:nth-child(3):focus::after{
+  content: "Connected: Realme 8s 5G";
+  position: absolute;
+  right: 1rem;
+  top: 2.5rem;
+  background-color:rgba(26, 0, 0, 0.656);
+  color:rgba(255, 255, 255,0.9);
+  font-size: 16px;
+  padding: 10px 5px;
+  border-radius: 4px;
+  z-index: 1;
+  font-family: "Ubuntu", sans-serif;
+  animation: down2 0.2s;
+}
+
+header>div>button:nth-child(4):focus::after{
+  content: "Speakers volume: 80%";
+  position: absolute;
+  right: 0rem;
+  top: 2.5rem;
+  background-color:rgba(26, 0, 0, 0.656);
+  color:rgba(255, 255, 255,0.9);
+  font-size: 16px;
+  padding: 10px 5px;
+  border-radius: 4px;
+  z-index: 1;
+  font-family: "Ubuntu", sans-serif;
+  animation: down2 0.2s;
+}
+
+
+/* header>div>button:nth-child(5):focus::after{
+
+} */
+
+
+
+
 
 
 
