@@ -73,7 +73,7 @@ header{
 .slideFinder{
     width: 200px;
     padding: 20px 30px 20px 30px;
-    background-color: rgba(0, 0, 0, 0.129);
+    background-color: rgba(0, 0, 0, 0.497);
     color: white;
     position: fixed;
     top: -400px;
@@ -93,7 +93,7 @@ header{
 .slideFile{
     width: 200px;
     padding: 20px 30px 20px 30px;
-    background-color: rgba(0, 0, 0, 0.129);
+    background-color:  rgba(0, 0, 0, 0.497);
     color: white;
     position: fixed;
     top: -400px;
@@ -116,7 +116,7 @@ header{
 .slideEdit{
     width: 200px;
     padding: 20px 30px 20px 30px;
-    background-color: rgba(0, 0, 0, 0.129);
+    background-color:  rgba(0, 0, 0, 0.497);
     color: white;
     position: fixed;
     top: -400px;
@@ -136,7 +136,7 @@ header{
 .slideGo{
     width: 200px;
     padding: 20px 30px 20px 30px;
-    background-color: rgba(0, 0, 0, 0.129);
+    background-color:  rgba(0, 0, 0, 0.497);
     color: white;
     position: fixed;
     top: -400px;
@@ -156,7 +156,7 @@ header{
 .slideHelp{
     width: 200px;
     padding: 20px 30px 20px 30px;
-    background-color: rgba(0, 0, 0, 0.129);
+    background-color:  rgba(0, 0, 0, 0.497);
     color: white;
     position: fixed;
     top: -400px;
@@ -271,12 +271,12 @@ header{
     justify-content: space-between;
     align-items: center;
     font-size: 10px;
-    /* transition:transform 0.3s ease-in;     */
+    transition:transform 0.3s ease-in;    
 }
-/* .foot-container:hover{
+.foot-container:hover{
     transform:translateX(-10px);
     scale: 1.1;
-} */
+}
 .foot-container>div{
     width: 40px;
     border-radius: 10px;
