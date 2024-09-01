@@ -308,29 +308,32 @@ header>div>button>i{
   flex-direction: row;
 }
 
-#shutdown>div:last-child>button{
+#shutdown>div:last-child>a{
   width: 33.2%;
   height: 2.6rem;
   font-family: "Ubuntu", sans-serif;
   font-size: 15px;
   margin-top: 1rem;
+  padding-top: 20px;
   background-color: rgba(72, 72, 72, 0.875);
   color: white;
   overflow: hidden;
+  text-align: center;
   border: none;
+  text-decoration: none;
 }
 
-#shutdown>div:last-child>button:first-child{
+#shutdown>div:last-child>a:first-child{
   border-bottom-left-radius: 10px;
   border-right: 2px solid rgb(158, 153, 153);
 }
 
-#shutdown>div:last-child>button:last-child{
+#shutdown>div:last-child>a:last-child{
   border-left: 2px solid rgb(158, 153, 153);
   border-bottom-right-radius: 10px;
 }
 
-#shutdown>div:last-child>button:first-child:hover, #shutdown>div:last-child>button:last-child:hover, #shutdown>div:last-child>button:nth-child(2):hover{
+#shutdown>div:last-child>a:first-child:hover, #shutdown>div:last-child>a:last-child:hover, #shutdown>div:last-child>a:nth-child(2):hover{
   background-color: rgb(169, 67, 29);
   cursor: pointer;
 }
