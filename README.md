@@ -10,6 +10,7 @@ Explore and compare the design and functionality of different operating systems.
 
 Roadmap
 <hr>
+<h1>Home page</h1>
 ![homepage3](https://github.com/user-attachments/assets/3a957504-a7cc-42ca-b02d-a02d34ab164d)
 
 Features:
