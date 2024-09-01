@@ -24,8 +24,11 @@ Binary_ballers_014
                   <li>pics</li>
                    <li>ubsrc</li>
                    <li>mac.html</li>
+                   <li>mac.css</li>
+                   <li>mac.js</li>
                    <li>windows.html</li>
                    <li>windows.css</li>
+                   <liwindows.js</li>
                   <li>ubuntu.html</li>
                    <li>ubntu.css</li>
             <ul/>
