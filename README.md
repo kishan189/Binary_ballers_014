@@ -10,3 +10,4 @@ Explore and compare the design and functionality of different operating systems.
 
 #screenshots
 ![homepage](https://github.com/user-attachments/assets/48ee1086-ac1d-4d49-8f13-5cd4009122c5)
+![homepage](https://github.com/user-attachments/assets/a607cb88-ca4e-4cf0-9a11-f7f2d2e67e2b)
