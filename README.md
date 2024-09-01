@@ -11,21 +11,26 @@ Explore and compare the design and functionality of different operating systems.
 |2| Netlify | [Diployed Link](https://github.com/kishan189/Binary_ballers_014/edit/main/README.md)|
 
 <h2> Directory Structure</h2>
-<p>
-      Binary_ballers_014/
-├─ src
-      |─pics
-      ├─ubsrc/
-      ├─mac.html/
-      ├─mac.css/
-      ├─windows.html/
-      ├─windows.css/
-      ├─ubuntu.html/
-      ├─ubntu.css/
-├─ index.html/
-├─ index.css/
-├─ About.html/
-</p>
+Binary_ballers_014
+<ul>
+      <li>
+            src
+            <ul>
+                  <li>pics</li>
+                   <li>ubsrc</li>
+                   <li>mac.html</li>
+                   <li>─windows.html/</li>
+                   <li>windows.css</li>
+                  <li>ubuntu.html</li>
+                   <li>ubntu.css/</li>
+            <ul/>
+      </li>
+</ul>
+
+index.html
+ index.css
+ About.html
+
 
 <h2>Roadmap</h2>
 <hr>
