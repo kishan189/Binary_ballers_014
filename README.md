@@ -13,6 +13,11 @@ Explore and compare the design and functionality of different operating systems.
 <h2> Directory Structure</h2>
 Binary_ballers_014
 <ul>
+      <li>index.html</li>
+      <li> index.css</li>
+      <li> About.html</li>
+</ul>
+<ul>
       <li>
             src
             <ul>
@@ -27,11 +32,7 @@ Binary_ballers_014
       </li>
 </ul>
 <br>
- <ul>
-       <li>index.html</li>
-      <li> index.css</li>
-      <li> About.html</li>
- </ul>
+ 
 
 
 <h2>Roadmap</h2>
