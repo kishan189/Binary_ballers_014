@@ -11,7 +11,8 @@ Explore and compare the design and functionality of different operating systems.
 |2| Netlify | [Diployed Link](https://github.com/kishan189/Binary_ballers_014/edit/main/README.md)|
 
 <h2> Directory Structure</h2>
-Binary_ballers_014/
+<p>
+      Binary_ballers_014/
 ├─ src
       |─pics
       ├─ubsrc/
@@ -24,6 +25,7 @@ Binary_ballers_014/
 ├─ index.html/
 ├─ index.css/
 ├─ About.html/
+</p>
 
 <h2>Roadmap</h2>
 <hr>
