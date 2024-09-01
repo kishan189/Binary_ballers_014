@@ -185,6 +185,7 @@ header{
    padding: 10px 5px;
    border-radius: 4px;
 }
+
 .speaker:hover::after{
    content: "Speakers (realtek(R) Audio):80%";
    position: absolute;
