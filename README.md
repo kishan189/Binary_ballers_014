@@ -14,4 +14,12 @@ Home Page
 ![homepage3](https://github.com/user-attachments/assets/3a957504-a7cc-42ca-b02d-a02d34ab164d)
 
 Features:
-
+<li><strong>Windows <i class="fa-brands fa-windows"></i></strong>: Experience the familiar layout and
+                functionality of the world’s most widely
+                used operating system, from its intuitive Start Menu to the powerful Task View.</li>
+            <li><strong>macOS <i class="fa-brands fa-apple"></i></strong>: Delve into the sleek and minimalist design of
+                Apple's macOS, exploring features
+                like Mission Control and Spotlight that enhance productivity and aesthetics.</li>
+            <li><strong>Ubuntu <i class="fa-brands fa-ubuntu"></i></strong>: Explore the open-source world of Ubuntu,
+                where customization meets simplicity,
+                offering users control over their desktop environment and system performance.</li>
