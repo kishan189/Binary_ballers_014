@@ -140,16 +140,9 @@ header>div>button>i{
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   border-radius: 5px;
   top: 5rem;
-  /* visibility: hidden; */
-  /* opacity: 0; */
-  /* transition: 0.5s ease-in; */
+  z-index: 1;
+  display: none;
 }
-
-/* #taskbar>div>div>a:focus~#start{
-  visibility: visible;
-  opacity: 1;
-}
-  */
 
 #banner{
   display: grid;
@@ -179,8 +172,8 @@ header>div>button>i{
 }
 
 #banner>figure:hover{
-  background-color: rgb(172, 31, 31);
-  border-radius: 5px;
+  background-color: rgb(255, 255, 255, 0.5);
+  border-radius: 15px;
 }
 
 
@@ -255,7 +248,7 @@ header>div>button>i{
 }
 
 .date:hover {
-  background-color: black;
+  background-color: rgba(33, 32, 32, 0.5);
   color: white;
   transform: scale(1.1);
   transition: transform 0.2s ease;
@@ -270,12 +263,81 @@ header>div>button>i{
   display: none;
 }
 
+#shutdown{
+  width: 26rem;
+  height: 9rem;
+  position: absolute;
+  top: 17rem;
+  right: 33rem;
+  background-color: rgb(39, 37, 37);
+  z-index: 1;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
 
+#shutdown>div:first-child>img{
+  width: 14%;
+  margin: 1rem 1rem;
+}
 
+#shutdown>div:first-child>h2{
+  position: relative;
+  top: -4rem;
+  left: 5.4rem;
+  font-family: sans-serif;
+  color: white;
+  font-size: 17px;
+  font-weight: 550;
+}
 
+#shutdown>div:first-child>p{
+  position: relative;
+  top: -2.2rem;
+  left: 5.4rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+}
 
+#shutdown>div:last-child{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
 
+#shutdown>div:last-child>button{
+  width: 33.2%;
+  height: 2.6rem;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 15px;
+  margin-top: 1rem;
+  background-color: rgba(72, 72, 72, 0.875);
+  color: white;
+  overflow: hidden;
+  border: none;
+}
 
+#shutdown>div:last-child>button:first-child{
+  border-bottom-left-radius: 10px;
+  border-right: 2px solid rgb(158, 153, 153);
+}
+
+#shutdown>div:last-child>button:last-child{
+  border-left: 2px solid rgb(158, 153, 153);
+  border-bottom-right-radius: 10px;
+}
+
+#shutdown>div:last-child>button:first-child:hover, #shutdown>div:last-child>button:last-child:hover, #shutdown>div:last-child>button:nth-child(2):hover{
+  background-color: rgb(169, 67, 29);
+  cursor: pointer;
+}
+
+header>div>button:nth-child(5):focus + #shutdown{
+  display: block;
+}
 
 
 
@@ -328,6 +390,23 @@ header>div>button>i{
   }
 }
 
+@keyframes left {
+  0%{
+    transform: scale(0.6);
+    transform: translateX(-300px);
+  }
+  100%{
+    transform: scale(1);
+    transform: translateX(0px);
+  }
+}
+
+
+#grid-menu:focus + #homepage{
+  display: block;
+  animation: left 0.2s ease-in;
+}
+
 header>div>button:nth-child(1):focus::after{
   content: "Battery Status : 45% remaning";
   position: absolute;
@@ -342,7 +421,6 @@ header>div>button:nth-child(1):focus::after{
   font-family: "Ubuntu", sans-serif;
   animation: down2 0.2s;
 }
-
 
 
 header>div>button:nth-child(2):focus::after{
@@ -391,9 +469,6 @@ header>div>button:nth-child(4):focus::after{
 }
 
 
-/* header>div>button:nth-child(5):focus::after{
-
-} */
 
 
 
