@@ -31,8 +31,8 @@ Features:
  <hr>
 <h2>Mackbook</h2>
   <div style="display: flex;justify-content: center;align-items: center;">
-           <img style="width:45%;margin-right:10%" src="https://github.com/user-attachments/assets/88fc365b-f022-409b-a32b-41bf804dfc7f"/>
-           <img style="width:45%;" src="https://github.com/user-attachments/assets/09cbca5f-bb89-40be-98d8-377723bd77f4"/>
+          <div> <img style="width:45%;margin-right:10%" src="https://github.com/user-attachments/assets/88fc365b-f022-409b-a32b-41bf804dfc7f"/></div>
+          <div> <img style="width:45%;" src="https://github.com/user-attachments/assets/09cbca5f-bb89-40be-98d8-377723bd77f4"/></div>
           
   </div>
  <div>
