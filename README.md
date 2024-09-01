@@ -12,14 +12,14 @@ Explore and compare the design and functionality of different operating systems.
 
 <h2> Directory Structure</h2>
 Binary_ballers_014/
-├─ src├─pics
-      ├─ubsrc
-      ├─mac.html
-      ├─mac.css
-      ├─windows.html
-      ├─windows.css
-      ├─ubuntu.html
-      ├─ubntu.css  
+├─ src├─pics/
+      ├─ubsrc/
+      ├─mac.html/
+      ├─mac.css/
+      ├─windows.html/
+      ├─windows.css/
+      ├─ubuntu.html/
+      ├─ubntu.css/
 ├─ index.html/
 ├─ index.css/
 ├─ About.html/
