@@ -3,8 +3,8 @@
 Objective:
 Explore and compare the design and functionality of different operating systems.
 <hr>
-## Project Type
-Frontend | Backend | Fullstack
+<h2> Project Type</h2>
+<h3>Frontend</h3>
 <hr>
 | SNo | Topic | Link |
 |-|-|-|
