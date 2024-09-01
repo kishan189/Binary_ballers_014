@@ -25,7 +25,9 @@ Binary_ballers_014
                    <li>ubntu.css/</li>
             <ul/>
       </li>
-      <li>index.html</li>
+</ul>
+<ul>
+    <li>index.html</li>
       <li> index.css</li>
       <li> About.html</li>
 </ul>
