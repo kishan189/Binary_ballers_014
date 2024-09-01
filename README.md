@@ -50,7 +50,7 @@ Explore and compare the design and functionality of different operating systems.
            <img style="width:45%;" src="https://github.com/user-attachments/assets/72a33f79-0270-4767-b3ec-cd575bb67d13"/>
  </div>
  <div>
-          <img style="height:250px" src="https://github.com/user-attachments/assets/b300e9c9-7ace-4fd2-a2a3-ae5a95456b05"/>
+          <img style="height:250px;width:30%" src="https://github.com/user-attachments/assets/b300e9c9-7ace-4fd2-a2a3-ae5a95456b05"/>
 
  </div>
 <hr>
