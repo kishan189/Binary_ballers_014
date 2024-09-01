@@ -2,18 +2,19 @@
 
 Objective:
 Explore and compare the design and functionality of different operating systems.
+<hr>
 
 | SNo | Topic | Link |
 |-|-|-|
 |1|Operating Systems | [Explanation video link](https://github.com/kishan189/Binary_ballers_014/edit/main/README.md)|
 |2| Netlify | [Diployed Link](https://github.com/kishan189/Binary_ballers_014/edit/main/README.md)|
 
-Roadmap
+<h2>Roadmap</h2>
 <hr>
 <h1>Home page</h1>
 <img style="width:50%;" src="https://github.com/user-attachments/assets/3a957504-a7cc-42ca-b02d-a02d34ab164d"/>
 
-Features:
+<h2>Features:</h2>
          <li><strong>Windows <i class="fa-brands fa-windows"></i></strong>: Experience the familiar layout and
                 functionality of the world’s most widely <br>
                 used operating system, from its intuitive Start Menu to the powerful Task View.</li>
