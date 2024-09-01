@@ -15,7 +15,7 @@ Roadmap
 
 Features:
          <li><strong>Windows <i class="fa-brands fa-windows"></i></strong>: Experience the familiar layout and
-                functionality of the world’s most widely
+                functionality of the world’s most widely <br>
                 used operating system, from its intuitive Start Menu to the powerful Task View.</li>
             <li><strong>macOS <i class="fa-brands fa-apple"></i></strong>: Delve into the sleek and minimalist design of
                 Apple's macOS, exploring features
