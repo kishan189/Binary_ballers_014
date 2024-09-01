@@ -23,7 +23,8 @@ Features:
             <li><strong>Ubuntu <i class="fa-brands fa-ubuntu"></i></strong>: Explore the open-source world of Ubuntu,
                 where customization meets simplicity,
                 offering users control over their desktop environment and system performance.</li>
-Project Logo:
+<hr>
+<h1>Project Logo:</h1>
   <img style="width:50%;" src="https://github.com/user-attachments/assets/d07fdd19-a1a8-4824-a94a-eb7600ef43a4"/>
 
 
