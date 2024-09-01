@@ -10,6 +10,20 @@ Explore and compare the design and functionality of different operating systems.
 |1|Operating Systems | [Explanation video link](https://github.com/kishan189/Binary_ballers_014/edit/main/README.md)|
 |2| Netlify | [Diployed Link](https://github.com/kishan189/Binary_ballers_014/edit/main/README.md)|
 
+<h2> Directory Structure</h2>
+Binary_ballers_014/
+├─ src├─pics
+      ├─ubsrc
+      ├─mac.html
+      ├─mac.css
+      ├─windows.html
+      ├─windows.css
+      ├─ubuntu.html
+      ├─ubntu.css  
+├─ index.html/
+├─ index.css/
+├─ About.html/
+
 <h2>Roadmap</h2>
 <hr>
 <h1>Home page</h1>
