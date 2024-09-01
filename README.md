@@ -52,4 +52,10 @@ Features:
           <img style="height:250px" src="https://github.com/user-attachments/assets/b300e9c9-7ace-4fd2-a2a3-ae5a95456b05"/>
 
  </div>
-
+<hr>
+<h1>Technologies and Stack</h1>
+<ul>
+         <li><h4>HTML</h4></li>
+         <li><h4>CSS</h4></li>
+         <li><h4>JavaScipt</li>
+</ul>
