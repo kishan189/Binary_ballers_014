@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubuntu</title>
+    <link rel="shortcut icon" href="./ubsrc/icon.webp" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #1e0303;
+            font-family: "Ubuntu", sans-serif;
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .spinner {
+            position: relative;
+            width: 80px;
+            height: 80px;
+            margin-bottom: 20px;
+            margin-right: 90px;
+        }
+
+        .spinner::before {
+            content: "";
+            box-sizing: border-box;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border: 8px solid rgba(255, 255, 255, 0.3);
+            border-top: 8px solid white;
+            border-radius: 50%;
+            animation: spin 2s linear infinite;
+        }
+
+        .ubuntu-logo {
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: 50%;
+            left: 100%;
+            transform: translate(-50%, -50%);
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: normal;
+        }
+
+        p {
+            margin: 10px 0 0;
+            font-size: 18px;
+            font-weight: lighter;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="spinner">
+            <img src="https://assets.ubuntu.com/v1/29985a98-ubuntu-logo32.png" alt="Ubuntu Logo" class="ubuntu-logo">
+        </div>
+        <h1>Restarting...</h1>
+        <p>Please do not turn off your computer</p>
+    </div>
+</body>
+</html>
