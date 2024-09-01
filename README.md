@@ -1,4 +1,4 @@
-🎉OS World Web Application Using HTML, CSS, and JavaScript.🎉
+<h1 style="color:"red;">🎉OS World Web Application Using HTML, CSS, and JavaScript.🎉</h1>
 
 Objective:
 Explore and compare the design and functionality of different operating systems.
