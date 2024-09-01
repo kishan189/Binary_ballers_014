@@ -57,5 +57,5 @@ Features:
 <ul>
          <li><h4>HTML</h4></li>
          <li><h4>CSS</h4></li>
-         <li><h4>JavaScipt</li>
+         <li><h4>JavaScript</li>
 </ul>
