@@ -30,7 +30,7 @@ Features:
 <h2>Screenshots/>
  <hr>
 <h2>Mackbook</h2>
-  <div style="dispaly:"grid;grid-template-column:repeat(2,1fr)">
+  <div style="display:"grid;grid-template-column:repeat(2,1fr)">
            <img style="width:30%;" src="https://github.com/user-attachments/assets/d07fdd19-a1a8-4824-a94a-eb7600ef43a4"/>
            <img style="width:30%;" src="https://github.com/user-attachments/assets/d07fdd19-a1a8-4824-a94a-eb7600ef43a4"/>
            <img style="width:30%;" src="https://github.com/user-attachments/assets/d07fdd19-a1a8-4824-a94a-eb7600ef43a4"/>
