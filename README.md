@@ -3,8 +3,7 @@
 Objective:
 Explore and compare the design and functionality of different operating systems.
 <hr>
-<h2> Project Type</h2>
-<h3>Frontend</h3>
+<h2> Project Type: Frontend</h2>
 
 | SNo | Topic | Link |
 |-|-|-|
