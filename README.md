@@ -25,6 +25,16 @@ Features:
                 offering users control over their desktop environment and system performance.</li>
 <hr>
 <h1>Project Logo:</h1>
-  <img style="width:50%;" src="https://github.com/user-attachments/assets/d07fdd19-a1a8-4824-a94a-eb7600ef43a4"/>
+  <img style="width:30%;" src="https://github.com/user-attachments/assets/d07fdd19-a1a8-4824-a94a-eb7600ef43a4"/>
+<hr>
+<h2>Screenshots/>
+ <hr>
+<h2>Mackbook</h2>
+  <div style="dispaly:"flex;">
+           <img style="width:30%;" src="https://github.com/user-attachments/assets/d07fdd19-a1a8-4824-a94a-eb7600ef43a4"/>
+           <img style="width:30%;" src="https://github.com/user-attachments/assets/d07fdd19-a1a8-4824-a94a-eb7600ef43a4"/>
+           <img style="width:30%;" src="https://github.com/user-attachments/assets/d07fdd19-a1a8-4824-a94a-eb7600ef43a4"/>
+  </div>
+
 
 
