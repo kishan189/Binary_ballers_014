@@ -36,6 +36,6 @@ Features:
           
   </div>
  <div>
-           <img style="width:30%;height:200px" src="https://github.com/user-attachments/assets/e0d22015-bf52-4959-a8b4-f58e2e9155e3"/>
+           <img style="height:250px" src="https://github.com/user-attachments/assets/e0d22015-bf52-4959-a8b4-f58e2e9155e3"/>
  </div>
 
