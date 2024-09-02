@@ -274,7 +274,8 @@ header>div>button>i{
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  display: none;
+  
+  /* display: none; */
 }
 
 #shutdown>div:first-child>img{
@@ -341,6 +342,10 @@ header>div>button>i{
 header>div>button:nth-child(5):focus + #shutdown{
   display: block;
 }
+
+/* header>div>button:nth-child(5):focus + #shutdown>#a-links{
+  display: block;
+} */
 
 
 
