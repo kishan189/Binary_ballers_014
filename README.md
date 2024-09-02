@@ -80,10 +80,11 @@ Binary_ballers_014
  </div>
  <div>
           <img style="height:250px;width:15%" src="https://github.com/user-attachments/assets/b300e9c9-7ace-4fd2-a2a3-ae5a95456b05"/>
-
+         <img style="height:250px;width:35%" src=" https://github.com/user-attachments/assets/eeaee69f-da49-46be-8c26-5f852dc31f03"/>
  </div>
 <hr>
 <div>
+
          <h2>Ubuntu</h2>
           <div>
           <img style="width:50%;" src="https://github.com/user-attachments/assets/f14f8e9c-dfdc-4490-9a4c-be48bd7c9f38"/>
