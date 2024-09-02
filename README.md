@@ -67,7 +67,7 @@ Binary_ballers_014
           </div>
           <div> 
             <img style="height:250px" src="https://github.com/user-attachments/assets/e0d22015-bf52-4959-a8b4-f58e2e9155e3"/>
-            <img src="https://github.com/user-attachments/assets/f822c61b-c242-452b-a019-df64af3fb7eb"/>
+            <img style="height:250px;width:"200px" src="https://github.com/user-attachments/assets/f822c61b-c242-452b-a019-df64af3fb7eb"/>
           </div>
   </div>
 <hr>
