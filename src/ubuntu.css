@@ -274,7 +274,7 @@ header>div>button>i{
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  display: none;
+  opacity: 0;
 }
 
 #shutdown>div:first-child>img{
@@ -339,7 +339,7 @@ header>div>button>i{
 }
 
 header>div>button:nth-child(5):focus + #shutdown{
-  display: block;
+  opacity: 1;
 }
 
 
