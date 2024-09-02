@@ -66,9 +66,7 @@ Binary_ballers_014
                    <img style="width:45%;" src="https://github.com/user-attachments/assets/09cbca5f-bb89-40be-98d8-377723bd77f4"/>
           </div>
           <div> 
-            <img style="height:250px" src="https://github.com/user-attachments/assets/e0d22015-bf52-4959-a8b4-f58e2e9155e3"/>
-                 <img style="height:250px" src=" https://github.com/user-attachments/assets/b78c2f71-878f-4a96-b964-e4618345403d"/>
-               
+            <img style="height:250px" src="https://github.com/user-attachments/assets/e0d22015-bf52-4959-a8b4-f58e2e9155e3"/>               
           </div>
   </div>
 <hr>
@@ -81,19 +79,17 @@ Binary_ballers_014
  </div>
  <div>
           <img style="height:250px;width:15%" src="https://github.com/user-attachments/assets/b300e9c9-7ace-4fd2-a2a3-ae5a95456b05"/>
-         <img style="height:250px;width:35%" src=" https://github.com/user-attachments/assets/eeaee69f-da49-46be-8c26-5f852dc31f03"/>
  </div>
 <hr>
 <div>
-
          <h2>Ubuntu</h2>
           <div>
-          <img style="width:50%;" src="https://github.com/user-attachments/assets/f14f8e9c-dfdc-4490-9a4c-be48bd7c9f38"/>
-           <img style="width:45%;" src="https://github.com/user-attachments/assets/5a2daf4e-54f7-4155-9423-1ec5ad168e95"/>
-            <img style="width:45%;" src="https://github.com/user-attachments/assets/ddc6188b-d3ea-46ad-97f7-3745e689ed9a"/>
-            <img style="width:45%;" src="https://github.com/user-attachments/assets/17dc009d-e7b9-4c76-bf6d-9230b0a754e8"/>
-            <img style="width:50%;" src="https://github.com/user-attachments/assets/6a0ee5e4-9692-4275-aabb-bb4d70c273eb"/>
-         </div>
+           <img style="width:50%;" src="https://github.com/user-attachments/assets/f14f8e9c-dfdc-4490-9a4c-be48bd7c9f38"/>
+            <img style="width:45%;" src="https://github.com/user-attachments/assets/5a2daf4e-54f7-4155-9423-1ec5ad168e95"/>
+           <img style="width:45%;" src="https://github.com/user-attachments/assets/ddc6188b-d3ea-46ad-97f7-3745e689ed9a"/>
+          <img style="width:45%;" src="https://github.com/user-attachments/assets/17dc009d-e7b9-4c76-bf6d-9230b0a754e8"/>
+           <img style="width:50%;" src="https://github.com/user-attachments/assets/6a0ee5e4-9692-4275-aabb-bb4d70c273eb"/>
+        </div>
 
 </div>
 <h1>Technologies and Stack</h1>
